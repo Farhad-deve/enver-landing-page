@@ -10,10 +10,12 @@ const Header = () => {
   return (
     <>
       <header className="flex justify-between items-center px-section py-header w-full transition-a-03s-linear">
+        {/* Logo */}
         <a href="">
           <img src="/public/assets/logos/enver-logo.png" alt="Enver" />
         </a>
 
+        {/* Mobile Menu Hamburger Button */}
         <button
           onClick={() => setOpen(true)}
           type="button"
@@ -22,6 +24,7 @@ const Header = () => {
           <img src="/public/assets/icons/hamburger.png" alt="Menu" />
         </button>
 
+        {/* Navigation Menu */}
         <nav
           className={`font-f-n-s fixed transition-a-03s-linear ${styles.menu}
           ${

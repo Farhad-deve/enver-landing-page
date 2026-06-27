@@ -10,7 +10,10 @@ interface ButtonProps {
 const Button = ({ type = "solid", children, showDesktop }: ButtonProps) => {
   return (
     <>
-      <button type="button" className={`${type === "solid" ? styles.btnSolid : styles.btnOutline} ${showDesktop ? "md-block hidden" : "md-hidden"}`}>
+      <button
+        type="button"
+        className={`${type === "solid" ? styles.btnSolid : styles.btnOutline} ${showDesktop ? "md-block hidden" : "md-hidden"}`}
+      >
         {children}
       </button>
     </>
