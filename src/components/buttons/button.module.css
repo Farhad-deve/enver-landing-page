@@ -1,0 +1,25 @@
+.btnSolid {
+    border-radius: 4px;
+    background-color: var(--light-blue);
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    font-weight: var(--font-700);
+    border: none;
+    font-family: var(--font-nunito-sans);
+    transition: all 0.3s ease-in-out;
+}
+
+.btnOutline {
+    border-radius: 5px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    background-color: transparent;
+    font-family: var(--font-nunito-sans);
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnOutline:hover {
+    background-color: var(--white);
+    color: var(--dark);
+}
