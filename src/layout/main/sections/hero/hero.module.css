@@ -1,0 +1,60 @@
+
+/* Guy in Orange T-Shirt */
+.guy {
+    z-index: 15;
+    width: clamp(20rem, 30vw, 30rem);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Zigzag Line */
+.zigzag {
+    z-index: 15;
+    top: 3rem;
+    width: clamp(3.5rem, 5vw, 4rem);
+}
+
+/* Rotated Square */
+.rotatedSquare {
+    width: clamp(14rem, 30vw, 20rem);
+    z-index: 10;
+    top: 4.5rem;
+    left: 45%;
+    transform: translateX(-45%);
+}
+
+/* Two Circles */
+.twoCircle {
+    z-index: 15;
+    width: clamp(2rem, 5vw, 3.5rem);
+    top: 2rem;
+    right: 1rem;
+}
+
+/* Two Triangles */
+.twoTriangle {
+    top: 18.5rem;
+}
+
+/* Plus */
+.plus {
+    top: 18rem;
+    right: 1rem;
+}
+
+.linearGradientTop {
+    top: -4rem;
+    left: -5rem;
+    transform: rotate(-45deg);
+    width: 16rem;
+    z-index: 10;
+}
+
+.linearGradientBottom {
+    bottom: -30rem;
+    left: -5rem;
+    transform: rotate(45deg);
+    z-index: 10;
+}
+
+   

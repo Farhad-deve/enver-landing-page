@@ -2,11 +2,14 @@
     border-radius: 4px;
     background-color: var(--light-blue);
     color: var(--white);
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     font-weight: var(--font-700);
     border: none;
     font-family: var(--font-nunito-sans);
     transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .btnOutline {
@@ -22,4 +25,8 @@
 .btnOutline:hover {
     background-color: var(--white);
     color: var(--dark);
+}
+
+@media (min-width: 768px) {
+    
 }

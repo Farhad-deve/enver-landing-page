@@ -59,11 +59,16 @@ const Header = () => {
             <a href="#about-us">
               <li className="text-white-70 transition-a-03s-ease hover-text-white">About us</li>
             </a>
-            <Button type="outline" showDesktop={false}>Contact Us</Button>
+
+            <div className="md-hidden">
+              <Button type="outline">Contact Us</Button>
+            </div>
           </ul>
         </nav>
 
-        <Button type="outline" showDesktop={true}>Contact Us</Button>
+        <div className="hidden md-block">
+          <Button type="outline">Contact Us</Button>
+        </div>
       </header>
     </>
   );

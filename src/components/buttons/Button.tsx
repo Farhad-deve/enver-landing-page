@@ -2,17 +2,16 @@ import { type ReactNode } from "react";
 import styles from "./button.module.css";
 
 interface ButtonProps {
-  type?: "outline" | "solid";
+  type: "outline" | "solid";
   children: ReactNode;
-  showDesktop?: boolean;
 }
 
-const Button = ({ type = "solid", children, showDesktop }: ButtonProps) => {
+const Button = ({ type = "solid", children }: ButtonProps) => {
   return (
     <>
       <button
         type="button"
-        className={`${type === "solid" ? styles.btnSolid : styles.btnOutline} ${showDesktop ? "md-block hidden" : "md-hidden"}`}
+        className={`${type === "solid" ? styles.btnSolid : styles.btnOutline}`}
       >
         {children}
       </button>

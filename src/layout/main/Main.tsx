@@ -3,7 +3,9 @@ import Hero from './sections/hero/Hero';
 const Main = () => {
   return (
     <>
-    <Hero />
+    <main>
+      <Hero />
+    </main>
     </>
   )
 }

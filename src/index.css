@@ -40,6 +40,9 @@ button {
 li {
     list-style: none;
 }
+img {
+    max-width: 100%;
+}
 
 /* Utils */
 
@@ -56,6 +59,7 @@ li {
 /* Gaps */
 .gap-0-5r { gap: 0.5rem; }
 .gap-1r { gap: 1rem; }
+.gap-1-5r { gap: 1.5rem; }
 .gap-2r { gap: 2rem; }
 
 /* Typography */
@@ -67,6 +71,8 @@ li {
 
 .font-f-i-s { font-family: var(--font-instrument-sans); }
 .font-f-n-s { font-family: var(--font-nunito-sans); }
+
+.leading-150p { line-height: 150%; }
 
 /* Borders */
 .rounded-5px { border-radius: 5px; }
@@ -81,6 +87,10 @@ li {
 .px-section {
     padding-left: clamp(1rem, 5vw, 6rem);
     padding-right: clamp(1rem, 5vw, 6rem);
+}
+.py-section {
+    padding-top: clamp(2rem, 4vw, 4.5rem);
+    padding-bottom: clamp(2rem, 4vw, 4.5rem);
 }
 .py-header {
     padding-top: clamp(1.5rem, 2vw, 2rem);
@@ -108,6 +118,7 @@ li {
 .opacity-0 { opacity: 0; }
 .pointer-events-none { pointer-events: none; }
 .pointer-events-auto { pointer-events: auto; }
+.overflow-hidden { overflow: hidden; }
 
 /* Hover effect */
 .hover-text-white:hover { color: var(--white); }
