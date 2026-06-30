@@ -46,15 +46,20 @@
     top: -4rem;
     left: -5rem;
     transform: rotate(-45deg);
-    width: 16rem;
+    width: 15rem;
+    height: 35rem;
     z-index: 10;
+    border: 3px solid white;
+    background: linear-gradient(45deg, #5454D4, #5454D46B);
+    filter: blur(300px);
 }
 
 .linearGradientBottom {
-    bottom: -30rem;
-    left: -5rem;
+    bottom: -11rem;
+    left: 6rem;
     transform: rotate(45deg);
     z-index: 10;
+    width: 16rem;
 }
 
    

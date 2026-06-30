@@ -118,7 +118,7 @@ const Hero = () => {
         {/* Linear Gradients */}
         <div>
           {/* Top Gradient */}
-          <picture>
+          {/* <picture>
             <source
               media="(min-width: 768px)"
               srcSet="/public/assets/images/desktop/linear-gradient-top-desktop.png"
@@ -129,10 +129,11 @@ const Hero = () => {
               alt=""
               className={`${styles.linearGradientTop} pointer-events-none absolute`}
             />
-          </picture>
+          </picture> */}
+          <div className={`${styles.linearGradientTop} pointer-events-none absolute`}></div>
 
           {/* Bottom Gradient */}
-          <picture>
+          {/* <picture>
             <source
               media="(min-width: 768px)"
               srcSet="/public/assets/images/desktop/linear-gradient-bottom-desktop.png"
@@ -143,7 +144,8 @@ const Hero = () => {
               alt=""
               className={`${styles.linearGradientBottom} pointer-events-none absolute`}
             />
-          </picture>
+          </picture> */}
+          <div className={`${styles.linearGradientBottom} pointer-events-none absolute`}></div>
         </div>
       </section>
     </>
