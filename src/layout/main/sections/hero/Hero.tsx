@@ -4,9 +4,24 @@ import styles from "./hero.module.css";
 const Hero = () => {
   return (
     <>
-      <section className="px-section py-section flex flex-col gap-2r">
+      <section className="px-section py-section relative flex flex-col gap-2r overflow-hidden md-flex-row md-items-center min-h-screen">
+        {/* Linear Gradients */}
+        <div
+          className={`absolute top-0 left-0 w-full h-full ${styles.linearGradients}`}
+        >
+          {/* Top Gradient */}
+          <div
+            className={`${styles.linearGradientTop} pointer-events-none absolute`}
+          ></div>
+
+          {/* Bottom Gradient */}
+          <div
+            className={`${styles.linearGradientBottom} pointer-events-none absolute`}
+          ></div>
+        </div>
+
         {/* Text Content */}
-        <div className="flex flex-col gap-1-5r">
+        <div className="flex flex-col items-start gap-1-5r">
           <h1 className="text-white font-f-i-s leading-150p">
             Build Your Awesome Platform
           </h1>
@@ -42,7 +57,7 @@ const Hero = () => {
                 <img
                   src="/public/assets/images/mobile/Guy-in-orange-T-Shirt-mob.png"
                   alt="Hero Image"
-                  className={`absolute ${styles.guy} pointer-events-none`}
+                  className={`${styles.guy} pointer-events-none`}
                 />
               </picture>
 
@@ -113,39 +128,6 @@ const Hero = () => {
               />
             </picture>
           </div>
-        </div>
-
-        {/* Linear Gradients */}
-        <div>
-          {/* Top Gradient */}
-          {/* <picture>
-            <source
-              media="(min-width: 768px)"
-              srcSet="/public/assets/images/desktop/linear-gradient-top-desktop.png"
-            />
-
-            <img
-              src="/public/assets/images/mobile/linear-gradient-top-mob.png"
-              alt=""
-              className={`${styles.linearGradientTop} pointer-events-none absolute`}
-            />
-          </picture> */}
-          <div className={`${styles.linearGradientTop} pointer-events-none absolute`}></div>
-
-          {/* Bottom Gradient */}
-          {/* <picture>
-            <source
-              media="(min-width: 768px)"
-              srcSet="/public/assets/images/desktop/linear-gradient-bottom-desktop.png"
-            />
-
-            <img
-              src="/public/assets/images/mobile/linear-gradient-bottom-mob.png"
-              alt=""
-              className={`${styles.linearGradientBottom} pointer-events-none absolute`}
-            />
-          </picture> */}
-          <div className={`${styles.linearGradientBottom} pointer-events-none absolute`}></div>
         </div>
       </section>
     </>

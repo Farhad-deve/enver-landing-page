@@ -5,6 +5,7 @@ const Main = () => {
     <>
     <main>
       <Hero />
+      
     </main>
     </>
   )

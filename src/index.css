@@ -51,6 +51,7 @@ img {
 /* Flex */
 .flex { display: flex; }
 .items-center { align-items: center; }
+.items-start { align-items: flex-start; }
 .justify-center { justify-content: center; }
 .justify-between { justify-content: space-between; }
 .flex-col { flex-direction: column; }
@@ -82,6 +83,9 @@ img {
 
 /* Backgrounds */
 .bg-transparent { background-color: transparent; }
+.bg-white-15 { background-color: #FFFFFF15; }
+
+.backdrop-blur-10 { backdrop-filter: blur(10px); }
 
 /* Paddings */
 .px-section {
@@ -89,8 +93,8 @@ img {
     padding-right: clamp(1rem, 5vw, 6rem);
 }
 .py-section {
-    padding-top: clamp(2rem, 4vw, 4.5rem);
-    padding-bottom: clamp(2rem, 4vw, 4.5rem);
+    padding-top: clamp(7rem, 9vw, 8rem);
+    padding-bottom: clamp(7rem, 9vw, 8rem);
 }
 .py-header {
     padding-top: clamp(1.5rem, 2vw, 2rem);
@@ -103,6 +107,13 @@ img {
 .absolute { position: absolute; }
 .relative { position: relative; }
 .fixed { position: fixed; }
+.sticky { position: sticky; }
+
+.top-0 { top: 0; }
+.left-0 { left: 0; }
+
+.z-10 { z-index: 10; }
+.z-15 { z-index: 15; }
 
 .translate-x-100 { transform: translateX(100%); }
 .translate-x-0 { transform: translateX(0); }
@@ -110,6 +121,7 @@ img {
 /* Sizes */
 .w-full { width: 100%; }
 .h-full { height: 100%; }
+.min-h-screen { min-height: 100vh; }
 
 /* Others */
 .transition-a-03s-linear { transition: all 0.3s linear; }

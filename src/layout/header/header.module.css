@@ -3,10 +3,10 @@
     height: 100%;
     top: 0;
     right: 0;
-    background-color: #000;
+    background-color: #ffffff10;
+    backdrop-filter: blur(15px);
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    z-index: 100;
 }
 .closeBtn {
     right: 1rem;
