@@ -145,6 +145,7 @@ img {
     .md-flex-row { flex-direction: row; }
     .md-flex-col { flex-direction: column; }
     .md-items-center { align-items: center; }
+    .md-justify-between { justify-content: space-between; }
 
     .md-opacity-100 { opacity: 1; }
     .md-opacity-0 { opacity: 0; }

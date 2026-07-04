@@ -1,7 +1,7 @@
 
 /* Guy in Orange T-Shirt */
 .guy {
-    width: clamp(20rem, 30vw, 30rem);
+    width: clamp(20rem, 60vw, 40rem);
 }
 
 /* Zigzag Line */
@@ -65,6 +65,17 @@
     filter: blur(250px);
 }
 
+.heroTitle {
+    font-size: clamp(2.5rem, 4.5vw, 4rem);
+    line-height: 150%;
+    max-width: 24rem;
+}
+.heroDescription {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    line-height: 150%;
+    max-width: 45rem;
+}
+
 
 @media(min-width: 768px) {
     .linearGradientTop {
@@ -72,6 +83,10 @@
     }
     .linearGradientBottom {
         width: 15rem;
+    }
+
+    .heroTitle {
+        line-height: 120%;
     }
 }
 
