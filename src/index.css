@@ -154,4 +154,6 @@ img {
     .md-pointer-events-auto { pointer-events: auto; }
     .md-pointer-events-none { pointer-events: none; }
     .md-translate-x-0 { transform: translateX(0); }
+
+    .md-p-0-5r { padding: 0.5rem; }
 }

@@ -44,24 +44,19 @@ const Header = () => {
         </button>
 
         {/* Navigation Menu */}
-        <nav className={`font-f-n-s fixed transition-a-03s-linear z-15 hidden md-flex ${styles.menu}
+        <nav
+          className={`font-f-n-s fixed transition-a-03s-linear z-15 hidden md-flex ${styles.menu}
           ${
             open
               ? "opacity-100 pointer-events-auto translate-x-0"
               : "opacity-0 pointer-events-none translate-x-100 md-opacity-100 md-pointer-events-auto md-translate-x-0 md-flex md-items-center"
           }`}
         >
-          <button
-            onClick={() => setOpen(false)}
-            type="button"
-            className={`border-none bg-transparent text-white p-0-5r text-1-2r absolute ${styles.closeBtn}`}
-          >
-            <FontAwesomeIcon icon={faXmark} />
-          </button>
+          
 
           <ul
             className={
-              "flex flex-col gap-2r p-1-5r md-flex-row md-items-center"
+              "flex flex-col gap-2r p-1-5r md-flex-row md-items-center md-p-0-5r"
             }
           >
             <a href="#home">
@@ -100,7 +95,8 @@ const Header = () => {
       </header>
 
       {/* Navigation Menu */}
-      <nav className={`font-f-n-s fixed transition-a-03s-linear z-15 md-hidden ${styles.menu}
+      <nav
+        className={`font-f-n-s fixed transition-a-03s-linear z-15 md-hidden ${styles.menu}
           ${
             open
               ? "opacity-100 pointer-events-auto translate-x-0"

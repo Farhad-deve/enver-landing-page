@@ -16,7 +16,8 @@
 @media (min-width: 768px) {
     .menu {
         position: static;
-        background: none;
+        background-color: transparent;
+        backdrop-filter: none;
         width: auto;
         height: auto;
         padding: 0;

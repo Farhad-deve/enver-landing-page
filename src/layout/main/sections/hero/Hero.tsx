@@ -22,6 +22,7 @@ const Hero = () => {
 
         {/* Text Content */}
         <div className="flex flex-col items-start gap-1-5r">
+
           <h1 className={`text-white font-f-i-s ${styles.textHeroHeading}`}>
             Build Your Awesome Platform
           </h1>
@@ -61,7 +62,6 @@ const Hero = () => {
                   className={`${styles.guy} pointer-events-none`}
                 />
               </picture>
-
 
               <img src="/public/assets/images/desktop/purple-square-bg-desktop.svg" alt="" className={`hidden md-inline-block absolute ${styles.purpleSquare}`} />
 

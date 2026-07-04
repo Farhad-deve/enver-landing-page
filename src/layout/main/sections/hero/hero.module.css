@@ -1,6 +1,6 @@
 /* Guy in Orange T-Shirt */
 .guy {
-  width: clamp(20rem, 60vw, 30rem);
+  width: 20rem;
 }
 
 /* Zigzag Line */
@@ -12,7 +12,7 @@
 
 /* Rotated Square */
 .rotatedSquare {
-  width: clamp(14rem, 30vw, 20rem);
+  width: clamp(14rem, 30vw, 24rem);
   z-index: -2;
   top: 4.5rem;
   left: 45%;
@@ -85,15 +85,26 @@
     width: 15rem;
     top: 3rem;
   }
-
-  
 }
 
 @media (min-width: 1024px) {
   .purpleSquare {
-    right: 3.5rem;
+    right: 5.4rem;
     z-index: -1;
     width: 23rem;
-    top: 9.6rem;
+    top: 15.1rem;
+  }
+
+  .rotatedSquare {
+    top: 12rem;
+  }
+
+  .twoTriangle {
+    top: 30rem;
+    left: -5rem;
+  }
+
+  .guy {
+    width: 35rem;
   }
 }
