@@ -69,6 +69,7 @@ img {
 .text-light-blue { color: var(--light-blue); }
 
 .text-1-2r { font-size: 1.2rem; }
+.text-clamp1r-1-2r { font-size: clamp(1rem, 1.2vw, 1.2rem); }
 
 .font-f-i-s { font-family: var(--font-instrument-sans); }
 .font-f-n-s { font-family: var(--font-nunito-sans); }
@@ -142,9 +143,11 @@ img {
     .md-flex { display: flex; }
     .md-hidden { display: none; }
     .md-block { display: block; }
+    .md-inline-block { display: inline-block; }
     .md-flex-row { flex-direction: row; }
     .md-flex-col { flex-direction: column; }
     .md-items-center { align-items: center; }
+    .md-justify-between { justify-content: space-between; }
 
     .md-opacity-100 { opacity: 1; }
     .md-opacity-0 { opacity: 0; }

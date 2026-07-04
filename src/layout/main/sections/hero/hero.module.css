@@ -1,78 +1,99 @@
-
 /* Guy in Orange T-Shirt */
 .guy {
-    width: clamp(20rem, 30vw, 30rem);
+  width: clamp(20rem, 60vw, 30rem);
 }
 
 /* Zigzag Line */
 .zigzag {
-    z-index: 5;
-    top: 3rem;
-    width: clamp(3.5rem, 5vw, 4rem);
+  z-index: 5;
+  top: 3rem;
+  width: clamp(3.5rem, 5vw, 4rem);
 }
 
 /* Rotated Square */
 .rotatedSquare {
-    width: clamp(14rem, 30vw, 20rem);
-    z-index: -1;
-    top: 4.5rem;
-    left: 45%;
-    transform: translateX(-45%);
+  width: clamp(14rem, 30vw, 20rem);
+  z-index: -2;
+  top: 4.5rem;
+  left: 45%;
+  transform: translateX(-45%);
 }
 
 /* Two Circles */
 .twoCircle {
-    z-index: 5;
-    width: clamp(2rem, 5vw, 3.5rem);
-    top: 2rem;
-    right: 1rem;
+  z-index: 5;
+  width: clamp(2rem, 5vw, 3.5rem);
+  top: 2rem;
+  right: 1rem;
 }
 
 /* Two Triangles */
 .twoTriangle {
-    top: 18.5rem;
+  top: 18.5rem;
 }
 
 /* Plus */
 .plus {
-    top: 18rem;
-    right: 1rem;
+  top: 18rem;
+  right: 1rem;
+}
+
+.textHeroHeading {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  max-width: 20rem;
+  line-height: 150%;
+}
+
+.textHeroDescription {
+  max-width: 32rem;
 }
 
 .linearGradients {
-    z-index: -1;
+  z-index: -1;
 }
 
 .linearGradientTop {
-    top: -1rem;
-    left: -1rem;
-    transform: rotate(-45deg);
-    width: 13rem;
-    height: 35rem;
-    z-index: 5;
-    background: linear-gradient(45deg, #5454D4, #5454D46B);
-    filter: blur(250px);
+  top: -1rem;
+  left: -1rem;
+  transform: rotate(-45deg);
+  width: clamp(13rem, 20vw, 15rem);
+  height: 35rem;
+  z-index: 5;
+  background: linear-gradient(45deg, #5454d4, #5454d46b);
+  filter: blur(250px);
 }
 
 .linearGradientBottom {
-    bottom: 0;
-    right: 0;
-    transform: rotate(45deg);
-    z-index: 5;
-    width: 13rem;
-    height: 35rem;
-    background: linear-gradient(45deg, #fba81c42, #E0568826);
-    filter: blur(250px);
+  bottom: 0;
+  right: 1rem;
+  transform: rotate(45deg);
+  z-index: 5;
+  width: clamp(13rem, 20vw, 15rem);
+  height: 35rem;
+  background: linear-gradient(45deg, #fba81c42, #e0568826);
+  filter: blur(250px);
 }
 
+@media (min-width: 768px) {
+  .textHeroHeading {
+    line-height: 120%;
+  }
 
-@media(min-width: 768px) {
-    .linearGradientTop {
-        width: 15rem;
-    }
-    .linearGradientBottom {
-        width: 15rem;
-    }
+  .purpleSquare {
+    right: 3.5rem;
+    z-index: -1;
+    width: 15rem;
+    top: 3rem;
+  }
+
+  
 }
 
-   
+@media (min-width: 1024px) {
+  .purpleSquare {
+    right: 3.5rem;
+    z-index: -1;
+    width: 23rem;
+    top: 9.6rem;
+  }
+}

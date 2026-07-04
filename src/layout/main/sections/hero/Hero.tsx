@@ -4,7 +4,7 @@ import styles from "./hero.module.css";
 const Hero = () => {
   return (
     <>
-      <section className="px-section py-section relative flex flex-col gap-2r overflow-hidden md-flex-row md-items-center min-h-screen">
+      <section className="px-section py-section relative flex flex-col gap-2r overflow-hidden md-flex-row md-items-center md-justify-between min-h-screen">
         {/* Linear Gradients */}
         <div
           className={`absolute top-0 left-0 w-full h-full ${styles.linearGradients}`}
@@ -22,10 +22,11 @@ const Hero = () => {
 
         {/* Text Content */}
         <div className="flex flex-col items-start gap-1-5r">
-          <h1 className="text-white font-f-i-s leading-150p">
+          <h1 className={`text-white font-f-i-s ${styles.textHeroHeading}`}>
             Build Your Awesome Platform
           </h1>
-          <p className="text-white-70 font-f-n-s leading-150p">
+
+          <p className={`text-white-70 font-f-n-s leading-150p text-clamp1r-1-2r ${styles.textHeroDescription}`}>
             Enver studio is a digital studio that offers several services such
             as UI/UX Design to developers, we will provide the best service for
             those of you who use our services.
@@ -60,6 +61,9 @@ const Hero = () => {
                   className={`${styles.guy} pointer-events-none`}
                 />
               </picture>
+
+
+              <img src="/public/assets/images/desktop/purple-square-bg-desktop.svg" alt="" className={`hidden md-inline-block absolute ${styles.purpleSquare}`} />
 
               {/* Bg rectangle */}
               <picture>
