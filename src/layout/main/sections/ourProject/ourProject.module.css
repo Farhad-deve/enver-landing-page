@@ -1,0 +1,11 @@
+.textHeading {
+    max-width: 25rem;
+}
+
+.textDescription {
+    max-width: 35rem;
+}
+
+.btnPlay:hover {
+    box-shadow: 0px 0px 0px 15px rgba(84, 84, 212, 0.46);
+}

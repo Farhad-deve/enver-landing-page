@@ -1,22 +1,21 @@
 /* Guy in Orange T-Shirt */
 .guy {
-  width: 20rem;
+  width: 100vw;
 }
 
 /* Zigzag Line */
 .zigzag {
   z-index: 5;
   top: 3rem;
-  width: clamp(3.5rem, 5vw, 4rem);
+  width: clamp(3.5rem, 5vw, 5rem);
 }
 
 /* Rotated Square */
 .rotatedSquare {
-  width: clamp(14rem, 30vw, 24rem);
+  width: 65vw;
   z-index: -2;
   top: 4.5rem;
-  left: 45%;
-  transform: translateX(-45%);
+  left: 1.5rem;
 }
 
 /* Two Circles */
@@ -29,12 +28,12 @@
 
 /* Two Triangles */
 .twoTriangle {
-  top: 18.5rem;
+  top: 50vh;
 }
 
 /* Plus */
 .plus {
-  top: 18rem;
+  top: 50vh;
   right: 1rem;
 }
 
@@ -79,24 +78,42 @@
     line-height: 120%;
   }
 
+  .rotatedSquare {
+    width: 33vw;
+    top: 4.5rem;
+    left: 1.5rem;
+  }
+
+  .guy {
+    width: 70vw;
+  }
+
   .purpleSquare {
-    right: 3.5rem;
+    right: 2.3rem;
     z-index: -1;
-    width: 15rem;
-    top: 3rem;
+    width: 35vw;
+    top: 6.2rem;
+  }
+
+  .twoTriangle {
+    width: 6vw;
+    top: 20rem;
+    left: -3rem;
   }
 }
 
 @media (min-width: 1024px) {
   .purpleSquare {
-    right: 5.4rem;
+    right: 3.5rem;
     z-index: -1;
-    width: 23rem;
-    top: 15.1rem;
+    width: 22rem;
+    top: 9.5rem;
   }
 
   .rotatedSquare {
-    top: 12rem;
+    width: 22rem;
+    top: 7rem;
+    right: 5rem;
   }
 
   .twoTriangle {
@@ -106,5 +123,24 @@
 
   .guy {
     width: 35rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .purpleSquare {
+    width: 28rem;
+    right: 3.9rem;
+    top: 10.1rem;
+  }
+  .rotatedSquare {
+    width: 28rem;
+  }
+
+  .plus {
+    top: 33rem;
+    right: 2rem;
+  }
+  .zigzag {
+    left: -4rem;
   }
 }
