@@ -2,17 +2,29 @@ import styles from "./services.module.css";
 
 const Services = () => {
   return (
-    <section className="px-section py-4r">
+    <section className="px-section py-4r relative overflow-hidden">
       <div className="flex justify-center">
         <h1
           className={`text-clamp2r-3vw-4r text-white font-f-i-s md-text-center leading-150p md-leading-120p ${styles.textHeading}`}
         >
           The Service We Provide For You
         </h1>
+
+        <picture>
+          <source media="(min-width: 768px)" srcSet="/public/assets/images/desktop/two-triangle-desktop.svg" />
+
+          <img src="/public/assets/images/mobile/two-triangle-mob.svg" alt="Two Triangle" className={`absolute pointer-events-none ${styles.imgTriangle}`} />
+        </picture>
+
+        <picture>
+          <source media="(min-width: 768px)" srcSet="/public/assets/images/desktop/plus-desktop.svg" />
+
+          <img src="/public/assets/images/mobile/plus-mob.svg" alt="Plus Icon" className={`absolute pointer-events-none ${styles.imgPlus}`} />
+        </picture>
       </div>
 
-      <div className="grid md-grid-cols-2 lg-grid-cols-3 gap-2r font-f-n-s text-center py-2r">
-        <div className="flex flex-col items-center gap-1r">
+      <div className="grid md-grid-cols-2 lg-grid-cols-3 gap-2r font-f-n-s text-center p-1-5r md-p-2-5r">
+        <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-blue-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
               src="/public/assets/icons/development.svg"
@@ -25,7 +37,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center gap-1r">
+        <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-red-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img src="/public/assets/icons/ux-ui.svg" alt="UX/UI Designer" />
           </div>
@@ -36,7 +48,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center gap-1r">
+        <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-yellow-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
               src="/public/assets/icons/graphik-designer.svg"
@@ -49,7 +61,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center gap-1r">
+        <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-yellow-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
               src="/public/assets/icons/motion-graphik.svg"
@@ -62,7 +74,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center gap-1r">
+        <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-blue-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
               src="/public/assets/icons/photography.svg"
@@ -75,7 +87,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center gap-1r">
+        <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-red-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
               src="/public/assets/icons/videography.svg"
@@ -87,6 +99,12 @@ const Services = () => {
             Create a platform with the best and coolest quality from us.
           </p>
         </div>
+
+        <picture>
+          <source media="(min-width: 768px)" srcSet="/public/assets/images/desktop/plus-desktop.svg" />
+
+          <img src="/public/assets/images/mobile/plus-mob.svg" alt="Plus Icon" className={`absolute pointer-events-none ${styles.imgPlusBottom}`} />
+        </picture>
       </div>
     </section>
   );

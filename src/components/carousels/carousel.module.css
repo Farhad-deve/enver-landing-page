@@ -1,0 +1,28 @@
+.carouselContainer {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.carouselSlide {
+  flex-shrink: 0;
+}
+
+.carouselImage {
+  width: 90%;
+}
+
+.carouselBtn:hover {
+  box-shadow: 0px 0px 0px 3px rgba(84, 84, 212, 0.46);
+}
+
+@media (min-width: 768px) {
+  .carouselImage {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carouselContainer {
+    display: none;
+  }
+}

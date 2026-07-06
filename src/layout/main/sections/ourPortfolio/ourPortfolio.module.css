@@ -1,0 +1,42 @@
+.image1 {
+    transform: translateY(4rem);
+}
+.image3 {
+   transform: translateY(8rem); 
+}
+
+
+.imgCircle {
+    top: 6rem;
+    right: 1rem;
+    transform: rotate(-30deg);
+}
+
+.zigzag {
+    width: 3rem;
+    bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .imgCircle {
+        width: 2.5rem;
+        top: 5rem;
+    }
+
+    .zigzag {
+        width: 4rem;
+        bottom: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imgCircle {
+        width: 3rem;
+        right: 10rem;
+    }
+
+    .zigzag {
+        width: 5rem;
+        bottom: 0;
+    }
+}

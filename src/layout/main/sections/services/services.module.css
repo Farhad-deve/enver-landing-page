@@ -1,3 +1,55 @@
 .textHeading {
-    max-width: 35rem;
+    max-width: 25rem;
+}
+
+.imgTriangle {
+    width: 3rem;
+    top: 0;
+    left: 1.5rem;
+}
+
+.imgPlus {
+    width: 1.5rem;
+    right: 1rem;
+    top: 9rem;
+}
+
+.imgPlusBottom {
+    width: 1.5rem;
+    left: 1rem;
+    bottom: 3rem;
+}
+
+
+@media(min-width: 1024px) {
+    .imgTriangle {
+        width: 4rem;
+        top: 2rem;
+        left: 10rem;
+    }
+
+    .imgPlus {
+        transform: rotate(70deg);
+        width: 2rem;
+        top: 9rem;
+        right: 5rem;
+    }
+
+    .imgPlusBottom {
+        transform: rotate(25deg);
+        width: 2rem;
+        left: 5rem;
+        bottom: 3rem;
+    }
+}
+
+@media(min-width: 1440px) {
+    .textHeading {
+        max-width: 35rem;
+    }
+
+    .imgTriangle {
+        width: 5rem;
+        left: 17rem;
+    }
 }
