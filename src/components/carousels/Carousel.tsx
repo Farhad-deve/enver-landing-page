@@ -34,10 +34,10 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
         {/* Navigation Buttons */}
         <div className="flex items-center justify-center gap-0-5r">
             <button className={`flex items-center justify-center bg-light-blue border-none rounded-full p-0-5r transition-a-03s-linear`} onClick={handlePrev} aria-label="Previous Slide">
-                <img src="/public/assets/icons/chevron-left.svg" alt="" />
+                <img src="assets/icons/chevron-left.svg" alt="" />
             </button>
             <button className={`flex items-center justify-center bg-light-blue border-none rounded-full p-0-5r transition-a-03s-linear`} onClick={handleNext} aria-label="Next Slide">
-                <img src="/public/assets/icons/chevron-right.svg" alt="" />
+                <img src="assets/icons/chevron-right.svg" alt="" />
             </button>
         </div>
       </div>
