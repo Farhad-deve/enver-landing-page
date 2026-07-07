@@ -13,15 +13,15 @@ const Contact = () => {
           </h1>
 
           <picture>
-            <source media="(min-width: 768px)" srcSet="/assets/images/desktop/plus-desktop.svg" />
+            <source media="(min-width: 768px)" srcSet="assets/images/desktop/plus-desktop.svg" />
 
-            <img src="/assets/images/mobile/plus-mob.svg" alt="Plus Icon" className={`absolute pointer-events-none ${styles.imgPlus}`} />
+            <img src="assets/images/mobile/plus-mob.svg" alt="Plus Icon" className={`absolute pointer-events-none ${styles.imgPlus}`} />
           </picture>
 
           <picture>
-            <source media="(min-width: 768px)" srcSet="/assets/images/desktop/two-circle-desktop.svg" />
+            <source media="(min-width: 768px)" srcSet="assets/images/desktop/two-circle-desktop.svg" />
 
-            <img src="/assets/images/mobile/two-circle-mob.svg" alt="Two Circle" className={`absolute pointer-events-none ${styles.imgCircle}`} />
+            <img src="assets/images/mobile/two-circle-mob.svg" alt="Two Circle" className={`absolute pointer-events-none ${styles.imgCircle}`} />
           </picture>
         </div>
 

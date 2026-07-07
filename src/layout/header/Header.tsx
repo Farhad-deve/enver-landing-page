@@ -39,7 +39,7 @@ const Header = () => {
           type="button"
           className="border-none bg-transparent flex items-center justify-center md-hidden"
         >
-          <img src="/public/assets/icons/hamburger.png" alt="Menu" />
+          <img src="assets/icons/hamburger.png" alt="Menu" />
         </button>
 
         {/* Navigation Menu */}
