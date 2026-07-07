@@ -3,6 +3,7 @@ import styles from "./header.module.css";
 import Button from "../../components/buttons/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import Logo from "../../components/logos/Logo";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -30,9 +31,7 @@ const Header = () => {
         className={`flex fixed top-0 left-0 z-10 justify-between items-center px-section py-header w-full transition-a-03s-linear ${isScrolled ? "backdrop-blur-10 bg-white-15" : ""}`}
       >
         {/* Logo */}
-        <a href="">
-          <img src="/public/assets/logos/enver-logo.png" alt="Enver" />
-        </a>
+        <Logo />
 
         {/* Mobile Menu Hamburger Button */}
         <button

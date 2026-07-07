@@ -28,6 +28,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--dark);
 }
@@ -123,6 +127,7 @@ img {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+.p-0 { padding: 0; }
 .p-0-5r { padding: 0.5rem; }
 .p-1r { padding: 1rem; }
 .p-1-5r { padding: 1.5rem; }
@@ -187,6 +192,7 @@ img {
 
     .md-leading-120p { line-height: 120%; }
     .md-text-center { text-align: center; }
+    .md-font-400 { font-weight: 400; }
 
     .md-p-0-5r { padding: 0.5rem; }
     .md-p-2-5r { padding: 2.5rem; }

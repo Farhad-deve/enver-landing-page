@@ -3,7 +3,7 @@ import styles from "./ourProject.module.css"
 const OurProject = () => {
   return (
     <>
-        <section className='px-section flex flex-col gap-2r'>
+        <section id="our-project" className='px-section flex flex-col gap-2r'>
             <div className='flex flex-col justify-between gap-1r md-flex-row md-items-start'>
                 <h1 className={`text-white font-f-i-s font-700 leading-150p md-leading-120p text-clamp2r-3vw-4r ${styles.textHeading}`}>Why Enver Is The Best Choice?</h1>
                 <p className={`text-white-70 font-f-n-s text-clamp1r-1-2r leading-150p ${styles.textDescription}`}>

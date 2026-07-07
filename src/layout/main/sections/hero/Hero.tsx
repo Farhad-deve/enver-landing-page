@@ -4,7 +4,7 @@ import styles from "./hero.module.css";
 const Hero = () => {
   return (
     <>
-      <section className="px-section py-section relative flex flex-col gap-2r overflow-hidden md-flex-row md-items-center md-justify-between min-h-screen">
+      <section id="home" className="px-section py-section relative flex flex-col gap-2r overflow-hidden md-flex-row md-items-center md-justify-between min-h-screen">
         {/* Linear Gradients */}
         <div
           className={`absolute top-0 left-0 w-full h-full ${styles.linearGradients}`}

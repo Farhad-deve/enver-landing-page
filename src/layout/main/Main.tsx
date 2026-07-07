@@ -1,3 +1,4 @@
+import Contact from './sections/contact/Contact';
 import Hero from './sections/hero/Hero';
 import OurPortfolio from './sections/ourPortfolio/OurPortfolio';
 import OurProject from './sections/ourProject/OurProject';
@@ -11,6 +12,7 @@ const Main = () => {
       <OurProject />
       <Services />
       <OurPortfolio />
+      <Contact />
     </main>
     </>
   )

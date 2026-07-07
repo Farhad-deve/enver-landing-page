@@ -4,7 +4,7 @@ import styles from "./ourPortfolio.module.css";
 const OurPortfolio = () => {
   return (
     <>
-      <section className="px-section py-4r relative overflow-hidden flex flex-col ">
+      <section id="about-us" className="px-section py-4r relative overflow-hidden flex flex-col ">
         <div>
           <h1
             className={`text-clamp2r-3vw-4r text-white font-f-i-s leading-150p md-leading-120p ${styles.textHeading}`}

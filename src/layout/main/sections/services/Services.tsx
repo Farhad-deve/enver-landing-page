@@ -2,7 +2,7 @@ import styles from "./services.module.css";
 
 const Services = () => {
   return (
-    <section className="px-section py-4r relative overflow-hidden">
+    <section id="services" className="px-section py-4r relative overflow-hidden">
       <div className="flex justify-center">
         <h1
           className={`text-clamp2r-3vw-4r text-white font-f-i-s md-text-center leading-150p md-leading-120p ${styles.textHeading}`}
