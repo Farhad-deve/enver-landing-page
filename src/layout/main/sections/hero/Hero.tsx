@@ -37,7 +37,7 @@ const Hero = () => {
             <Button type="solid">
               Our Services
               <img
-                src="/public/assets/icons/arrow-right-up.png"
+                src="/assets/icons/arrow-right-up.png"
                 alt="arrow-right-up-icon"
                 className="pointer-events-none"
               />
@@ -53,27 +53,27 @@ const Hero = () => {
               <picture>
                 <source
                   media="(min-width: 768px)"
-                  srcSet="/public/assets/images/desktop/Guy-in-orange-T-shirt-desktop.png"
+                  srcSet="/assets/images/desktop/Guy-in-orange-T-shirt-desktop.png"
                 />
 
                 <img
-                  src="/public/assets/images/mobile/Guy-in-orange-T-Shirt-mob.png"
+                  src="/assets/images/mobile/Guy-in-orange-T-Shirt-mob.png"
                   alt="Hero Image"
                   className={`${styles.guy} pointer-events-none`}
                 />
               </picture>
 
-              <img src="/public/assets/images/desktop/purple-square-bg-desktop.svg" alt="" className={`hidden md-inline-block absolute ${styles.purpleSquare}`} />
+              <img src="/assets/images/desktop/purple-square-bg-desktop.svg" alt="" className={`hidden md-inline-block absolute ${styles.purpleSquare}`} />
 
               {/* Bg rectangle */}
               <picture>
                 <source
                   media="(min-width: 768px)"
-                  srcSet="/public/assets/images/desktop/rotated-square-desktop.svg"
+                  srcSet="/assets/images/desktop/rotated-square-desktop.svg"
                 />
 
                 <img
-                  src="/public/assets/images/mobile/rotated-square-mob.svg"
+                  src="/assets/images/mobile/rotated-square-mob.svg"
                   alt=""
                   className={`absolute ${styles.rotatedSquare} pointer-events-none`}
                 />
@@ -83,11 +83,11 @@ const Hero = () => {
             <picture>
               <source
                 media="(min-width: 768px)"
-                srcSet="/public/assets/images/desktop/zigzag-line-desktop.svg"
+                srcSet="/assets/images/desktop/zigzag-line-desktop.svg"
               />
 
               <img
-                src="/public/assets/images/mobile/zigzag-line-mob.svg"
+                src="/assets/images/mobile/zigzag-line-mob.svg"
                 alt=""
                 className={`absolute ${styles.zigzag} pointer-events-none`}
               />
@@ -96,11 +96,11 @@ const Hero = () => {
             <picture>
               <source
                 media="(min-width: 768px)"
-                srcSet="/public/assets/images/desktop/two-circle-desktop.svg"
+                srcSet="/assets/images/desktop/two-circle-desktop.svg"
               />
 
               <img
-                src="/public/assets/images/mobile/two-circle-mob.svg"
+                src="/assets/images/mobile/two-circle-mob.svg"
                 alt=""
                 className={`absolute ${styles.twoCircle} pointer-events-none`}
               />
@@ -109,11 +109,11 @@ const Hero = () => {
             <picture>
               <source
                 media="(min-width: 768px)"
-                srcSet="/public/assets/images/desktop/two-triangle-desktop.svg"
+                srcSet="/assets/images/desktop/two-triangle-desktop.svg"
               />
 
               <img
-                src="/public/assets/images/mobile/two-triangle-mob.svg"
+                src="/assets/images/mobile/two-triangle-mob.svg"
                 alt=""
                 className={`absolute ${styles.twoTriangle} pointer-events-none`}
               />
@@ -122,11 +122,11 @@ const Hero = () => {
             <picture>
               <source
                 media="(min-width: 768px)"
-                srcSet="/public/assets/images/desktop/plus-desktop.svg"
+                srcSet="/assets/images/desktop/plus-desktop.svg"
               />
 
               <img
-                src="/public/assets/images/mobile/plus-mob.svg"
+                src="/assets/images/mobile/plus-mob.svg"
                 alt=""
                 className={`absolute ${styles.plus} pointer-events-none`}
               />

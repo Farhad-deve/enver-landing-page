@@ -11,15 +11,15 @@ const Services = () => {
         </h1>
 
         <picture>
-          <source media="(min-width: 768px)" srcSet="/public/assets/images/desktop/two-triangle-desktop.svg" />
+          <source media="(min-width: 768px)" srcSet="/assets/images/desktop/two-triangle-desktop.svg" />
 
-          <img src="/public/assets/images/mobile/two-triangle-mob.svg" alt="Two Triangle" className={`absolute pointer-events-none ${styles.imgTriangle}`} />
+          <img src="/assets/images/mobile/two-triangle-mob.svg" alt="Two Triangle" className={`absolute pointer-events-none ${styles.imgTriangle}`} />
         </picture>
 
         <picture>
-          <source media="(min-width: 768px)" srcSet="/public/assets/images/desktop/plus-desktop.svg" />
+          <source media="(min-width: 768px)" srcSet="/assets/images/desktop/plus-desktop.svg" />
 
-          <img src="/public/assets/images/mobile/plus-mob.svg" alt="Plus Icon" className={`absolute pointer-events-none ${styles.imgPlus}`} />
+          <img src="/assets/images/mobile/plus-mob.svg" alt="Plus Icon" className={`absolute pointer-events-none ${styles.imgPlus}`} />
         </picture>
       </div>
 
@@ -27,7 +27,7 @@ const Services = () => {
         <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-blue-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
-              src="/public/assets/icons/development.svg"
+              src="/assets/icons/development.svg"
               alt="Development Icon"
             />
           </div>
@@ -39,7 +39,7 @@ const Services = () => {
 
         <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-red-10 w-4r h-4r rounded-full flex items-center justify-center">
-            <img src="/public/assets/icons/ux-ui.svg" alt="UX/UI Designer" />
+            <img src="/assets/icons/ux-ui.svg" alt="UX/UI Designer" />
           </div>
           <h2 className="text-white">UX/UI Designer</h2>
           <p className="text-white-70">
@@ -51,7 +51,7 @@ const Services = () => {
         <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-yellow-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
-              src="/public/assets/icons/graphik-designer.svg"
+              src="/assets/icons/graphik-designer.svg"
               alt="Graphik Designer"
             />
           </div>
@@ -64,7 +64,7 @@ const Services = () => {
         <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-yellow-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
-              src="/public/assets/icons/motion-graphik.svg"
+              src="/assets/icons/motion-graphik.svg"
               alt="Motion Graphik"
             />
           </div>
@@ -77,7 +77,7 @@ const Services = () => {
         <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-blue-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
-              src="/public/assets/icons/photography.svg"
+              src="/assets/icons/photography.svg"
               alt="Photography Icon"
             />
           </div>
@@ -90,7 +90,7 @@ const Services = () => {
         <div className="flex flex-col items-center justify-between gap-1r lg-px-2r xl-px-3r">
           <div className="bg-light-red-10 w-4r h-4r rounded-full flex items-center justify-center">
             <img
-              src="/public/assets/icons/videography.svg"
+              src="/assets/icons/videography.svg"
               alt="Videography Icon"
             />
           </div>
@@ -101,9 +101,9 @@ const Services = () => {
         </div>
 
         <picture>
-          <source media="(min-width: 768px)" srcSet="/public/assets/images/desktop/plus-desktop.svg" />
+          <source media="(min-width: 768px)" srcSet="/assets/images/desktop/plus-desktop.svg" />
 
-          <img src="/public/assets/images/mobile/plus-mob.svg" alt="Plus Icon" className={`absolute pointer-events-none ${styles.imgPlusBottom}`} />
+          <img src="/assets/images/mobile/plus-mob.svg" alt="Plus Icon" className={`absolute pointer-events-none ${styles.imgPlusBottom}`} />
         </picture>
       </div>
     </section>

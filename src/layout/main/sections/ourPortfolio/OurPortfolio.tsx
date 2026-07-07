@@ -13,29 +13,29 @@ const OurPortfolio = () => {
           </h1>
 
           <picture>
-            <source media="(min-width: 768px)" srcSet="/public/assets/images/desktop/two-circle-desktop.svg" />
+            <source media="(min-width: 768px)" srcSet="/assets/images/desktop/two-circle-desktop.svg" />
 
-            <img src="/public/assets/images/mobile/two-circle-mob.svg" alt="Two Circle" className={`absolute pointer-events-none ${styles.imgCircle}`} />
+            <img src="/assets/images/mobile/two-circle-mob.svg" alt="Two Circle" className={`absolute pointer-events-none ${styles.imgCircle}`} />
           </picture>
 
           <picture>
-            <source media="(min-width: 768px)" srcSet="/public/assets/images/desktop/zigzag-line-desktop.svg" />
+            <source media="(min-width: 768px)" srcSet="/assets/images/desktop/zigzag-line-desktop.svg" />
 
-            <img src="/public/assets/images/mobile/zigzag-line-mob.svg" alt="Zigzag Line" className={`absolute pointer-events-none ${styles.zigzag}`} />
+            <img src="/assets/images/mobile/zigzag-line-mob.svg" alt="Zigzag Line" className={`absolute pointer-events-none ${styles.zigzag}`} />
           </picture>
         </div>
 
         <div className="py-2r">
             <div className="hidden lg-flex gap-1r justify-between py-4r">
-                <img src="/public/assets/images/carousel-image-2.png" alt="" className={`pointer-events-none ${styles.image2}`} />
-                <img src="/public/assets/images/carousel-image-1.png" alt="" className={`pointer-events-none ${styles.image1}`} />
-                <img src="/public/assets/images/carousel-image-3.png" alt="" className={`pointer-events-none ${styles.image3}`} />
+                <img src="/assets/images/carousel-image-2.png" alt="" className={`pointer-events-none ${styles.image2}`} />
+                <img src="/assets/images/carousel-image-1.png" alt="" className={`pointer-events-none ${styles.image1}`} />
+                <img src="/assets/images/carousel-image-3.png" alt="" className={`pointer-events-none ${styles.image3}`} />
             </div>
 
             <Carousel images={[
-                '/public/assets/images/carousel-image-2.png',
-                '/public/assets/images/carousel-image-1.png',
-                '/public/assets/images/carousel-image-3.png'
+                '/assets/images/carousel-image-2.png',
+                '/assets/images/carousel-image-1.png',
+                '/assets/images/carousel-image-3.png'
             ]} />
         </div>
       </section>
