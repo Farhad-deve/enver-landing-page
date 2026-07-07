@@ -1,5 +1,4 @@
 import Logo from "../../components/logos/Logo"
-import styles from "./footer.module.css"
 
 const Footer = () => {
   return (
